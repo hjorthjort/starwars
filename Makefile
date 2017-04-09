@@ -8,7 +8,7 @@ compile:
 	javac -d out src/*.java
 
 clean:
-	rm out/*
+	rm out/*.class
 	rm jar/jar/bin/*.jar
 	rm jar/*.jar
 
