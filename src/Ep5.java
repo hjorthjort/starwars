@@ -10,7 +10,7 @@ public class Ep5 {
         System.out.println(sc.nextLine());
         System.out.println("It is a period of civil war.");
       } else {
-        System.out.println(5);
+        System.exit(5);
       }
   }
 }
