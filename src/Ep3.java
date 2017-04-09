@@ -14,7 +14,7 @@ public class Ep3 {
         System.out.println(sc.nextLine());
         System.out.println("...");
       } else {
-        System.exit(2);
+        System.exit(3);
       }
   }
 }
