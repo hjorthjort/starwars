@@ -6,7 +6,7 @@ compile:
 clean:
 	rm out/*
 
-jars: ep4 ep5 ep6 ep1 ep2 ep3 ep7
+jars: ep4 ep5 ep6 ep1 ep2 ep3 ep7 ep35
 
 ep4:
 	cd out && jar cvfm Ep4.jar ../manifests/manifest4.txt Ep4.class
@@ -29,5 +29,8 @@ ep3:
 ep7:
 	cd out && jar cvfm Ep7.jar ../manifests/manifest7.txt Ep7.class
 
+ep35:
+	cd out && jar cvfm Ep35.jar ../manifests/manifest35.txt Ep35.class
+
 test: compile jars
-	java -jar out/Ep4.jar | java -jar out/Ep5.jar | java -jar out/Ep6.jar | java -jar out/Ep1.jar | java -jar out/Ep2.jar | java -jar out/Ep3.jar | java -jar out/Ep7.jar
+	java -jar out/Ep4.jar | java -jar out/Ep5.jar | java -jar out/Ep6.jar | java -jar out/Ep1.jar | java -jar out/Ep2.jar | java -jar out/Ep3.jar | java -jar out/Ep7.jar | java -jar out/Ep35.jar
