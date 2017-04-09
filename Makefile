@@ -1,5 +1,8 @@
 main: compile jars
 
+tar: jars
+	tar -czf sw.tar.gz jar/jar/bin/*
+
 compile:
 	javac -d out src/*.java
 
@@ -7,7 +10,7 @@ clean:
 	rm out/*
 	rm jar/jar/bin/*
 
-jars: ep4 ep5 ep6 ep1 ep2 ep3 ep7 ep35
+jars: compile ep4 ep5 ep6 ep1 ep2 ep3 ep7 ep35
 
 ep4:
 	cd jar/jar/bin && jar cvfm Ep4.jar ../../../manifests/manifest4.txt ../../../out/Ep4.class
