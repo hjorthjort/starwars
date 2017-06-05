@@ -13,7 +13,7 @@ public class Ep7 {
         System.out.println(sc.nextLine());
         System.out.println(sc.nextLine());
         System.out.println(sc.nextLine());
-        System.out.println("Help us DigIT 18");
+        System.out.println("Help us DigIT 17");
       } else {
         System.exit(7);
       }

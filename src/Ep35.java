@@ -14,7 +14,7 @@ public class Ep35 {
         System.out.println(sc.nextLine());
         System.out.println(sc.nextLine());
         System.out.println(sc.nextLine());
-        System.out.println("By going here: [link]");
+        System.out.println("By going here: https://www.youtube.com/watch?v=EavWmhuhZTM");
       } else {
         System.exit(35);
       }
